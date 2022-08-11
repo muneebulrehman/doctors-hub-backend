@@ -4,14 +4,14 @@ class Api::UsersController < ApplicationController
       render json: { error: 'Username already exists' }, status: :unprocessable_entity
     else
       @user = User.create(user_params)
-      render json: { success: true, message: "User created successfully", user: @user }, status: :created
+      render json: { success: true, message: 'User created successfully', user: @user }, status: :created
     end
   end
 
   def login
     @user = User.find_by(username: params[:username])
     if @user.present?
-      render json: { success: true, message: "Logged in successfully", user: @user }, status: :ok
+      render json: { success: true, message: 'Logged in successfully', user: @user }, status: :ok
     else
       render json: { error: 'User not found' }, status: :not_found
     end
