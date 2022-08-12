@@ -7,7 +7,8 @@ class Api::UsersController < ApplicationController
     if @user.save
       render json: { success: true, message: 'User created successfully', user: @user }, status: :created
     else
-      render json: { success: false, error: 'User not created', message: @user.errors.full_messages }, status: :unprocessable_entity
+      render json: { success: false, error: 'User not created', message: @user.errors.full_messages },
+             status: :unprocessable_entity
     end
   end
 
