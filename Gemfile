@@ -42,6 +42,8 @@ group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'dotenv-rails'
   gem 'rubocop', '~> 1.30'
+  gem 'rspec-rails'
+  gem 'rswag-specs'
 end
 
 group :development do
@@ -50,3 +52,6 @@ group :development do
 end
 
 gem 'rack-cors'
+
+gem 'rswag-api'
+gem 'rswag-ui'
