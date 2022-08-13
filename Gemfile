@@ -41,6 +41,8 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'dotenv-rails'
+  gem 'rspec-rails'
+  gem 'rswag-specs'
   gem 'rubocop', '~> 1.30'
 end
 
@@ -50,3 +52,6 @@ group :development do
 end
 
 gem 'rack-cors'
+
+gem 'rswag-api'
+gem 'rswag-ui'
