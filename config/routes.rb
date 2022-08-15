@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   namespace :api do
     post '/users', to: 'users#create'
     post '/login', to: 'users#login'
+    resources :doctors, only: [:index, :show]
   end
 
   # Defines the root path route ("/")
