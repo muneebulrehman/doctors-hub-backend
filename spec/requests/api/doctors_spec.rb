@@ -41,4 +41,17 @@ RSpec.describe '/api/doctors', type: :request do
                  created_at: { format: 'date-time' },
                  updated_at: { format: 'date-time' }
                }
+               let(:id) do
+                Doctor.create(
+                  name: 'Doc Mike',
+                  speciality: 'Cardiologist',
+                  price: 1000,
+                  photo: 'Sample image',
+                  bio: 'famous on youtube'
+                ).id
+              end
+              run_test!
+            end
+          end
+        end
 end
