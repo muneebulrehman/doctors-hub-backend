@@ -25,4 +25,20 @@ RSpec.describe '/api/doctors', type: :request do
       end
     end
   end
+  path '/api/doctors/{id}' do
+    get 'Fetches a doctor' do
+      tags 'Doctors'
+      produces 'application/json'
+      parameter name: :id, in: :path, type: :string, required: true
+      response '200', 'a single doctor' do
+        schema type: :object,
+               properties: {
+                 name: { type: :string },
+                 speciality: { type: :string },
+                 photo: { type: :string },
+                 price: { type: :number },
+                 bio: { type: :string },
+                 created_at: { format: 'date-time' },
+                 updated_at: { format: 'date-time' }
+               }
 end
