@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     post '/users', to: 'users#create'
     post '/login', to: 'users#login'
     resources :doctors, only: [:index, :show]
+    resources :appointments, only: [:index, :show, :create]
   end
 
   # Defines the root path route ("/")
