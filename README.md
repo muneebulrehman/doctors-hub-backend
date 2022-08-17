@@ -36,3 +36,31 @@ We are a team of three.
 - Ruby on Rails
 - PostgreSQL
 
+#### Setup
+
+Clone [this](t) repo
+
+- Navigate to the directory and run `bundle install` to install the dependencies.
+- Run `rails db:create` to create the database.
+- Run `rails db:migrate` to migrate the database.
+- Run `rails s` to start the server.
+
+### Authors
+
+👤 **Muneeb Ul Rehman**
+
+- GitHub: [@Muneeb](https://github.com/muneebulrehman)
+- Twitter: [@NeatCoder\_](https://twitter.com/NeatCoder_)
+- LinkedIn: [Muneeb](https://www.linkedin.com/in/muneebulrehman/)
+
+
+
+### 🤝 Contributions
+
+Contributions, issues, and feature requrests are welcome!
+
+Feel free to check the [issues page]().
+
+### 📝 License
+
+This project is MIT licensed.
