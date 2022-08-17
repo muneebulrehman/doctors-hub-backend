@@ -53,6 +53,13 @@ Clone [this](t) repo
 - Twitter: [@NeatCoder\_](https://twitter.com/NeatCoder_)
 - LinkedIn: [Muneeb](https://www.linkedin.com/in/muneebulrehman/)
 
+👤 **Ezekiel Utshudi**
+
+- GitHub: [@EzekielUtshudi](https://github.com/EzekielUtshudi)
+- Twitter: [@UtshudiEzekiel](https://twitter.com/UtshudiEzekiel)
+- LinkedIn: [@ezekiel-utshudi](https://www.linkedin.com/in/ezekiel-utshudi-195782162/)
+
+
 
 
 ### 🤝 Contributions
