@@ -72,7 +72,7 @@ RSpec.describe 'APPOINTMENTS API', type: :request do
         doctor = Doctor.all[0]
         let(:appointment) { { doctor_id: doctor&.id, date: DateTime.now, user_id: first_user&.id } }
         run_test! do |res|
-          expect(JSON.parse(res.body).keys).to eq(%w[id user_id doctor_id date created_at updated_at])
+          expect(JSON.parse(res.body).keys).to eq(%w[success message appointment])
         end
       end
     end
