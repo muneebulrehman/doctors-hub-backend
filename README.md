@@ -1,4 +1,4 @@
-# Doctors Appointment backend (API)
+# Doctors Hub backend (API)
 
 Backend repository for the final capstone project of the **Doctors Hub**. Developed using Ruby on Rails, this is an API which responds in JSON.
 Visit the [Frontend repo]()
@@ -22,7 +22,7 @@ Visit the [Frontend repo]()
 We are a team of three.
 
 1. [@Muneeb ul Rehman](https://github.com/muneebulrehman)
-2. []()
+2. [@Ezekiel Utshudi Eteta](https://github.com/EzekielUtshudi)
 
 ### Built with
 
