@@ -38,7 +38,7 @@ We are a team of three.
 
 #### Setup
 
-Clone [this](t) repo
+Clone [this]() repo
 
 - Navigate to the directory and run `bundle install` to install the dependencies.
 - Run `rails db:create` to create the database.
@@ -66,7 +66,7 @@ Clone [this](t) repo
 
 Contributions, issues, and feature requrests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/muneebulrehman/doctors-hub-backend/issues).
 
 ### 📝 License
 
