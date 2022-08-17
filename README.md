@@ -38,7 +38,7 @@ We are a team of three.
 
 #### Setup
 
-Clone [this]() repo
+Clone [this](https://github.com/muneebulrehman/doctors-hub-backend) repo
 
 - Navigate to the directory and run `bundle install` to install the dependencies.
 - Run `rails db:create` to create the database.
