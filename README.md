@@ -62,6 +62,7 @@ Clone [this](https://github.com/muneebulrehman/doctors-hub-backend) repo
 👤 **Sangwa Didier**
 
 - GitHub: [Didier Sangwa](https://github.com/sangwa7)
+- Twitter: [@sangwa_7](https://twitter.com/sangwa_7)
 
 
 
