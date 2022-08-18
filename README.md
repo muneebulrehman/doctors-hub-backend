@@ -59,6 +59,9 @@ Clone [this](https://github.com/muneebulrehman/doctors-hub-backend) repo
 - Twitter: [@UtshudiEzekiel](https://twitter.com/UtshudiEzekiel)
 - LinkedIn: [@ezekiel-utshudi](https://www.linkedin.com/in/ezekiel-utshudi-195782162/)
 
+👤 **Sangwa Didier**
+
+- GitHub: [Didier Sangwa](https://github.com/sangwa7)
 
 
 
