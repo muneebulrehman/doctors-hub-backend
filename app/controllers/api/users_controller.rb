@@ -1,7 +1,7 @@
 class Api::UsersController < ApplicationController
   def create
     if User.exists?(username: params[:username])
-      return render json: { success: false, error: 'Username already exists' }, status: :unprocessable_entity
+      return render json: { success: false, error: 'Username already exists' }
     end
 
     @user = User.new(user_params)
