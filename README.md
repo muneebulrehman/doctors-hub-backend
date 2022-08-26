@@ -5,17 +5,21 @@ Visit the [Frontend repo]()
 
 ### Preview
 
-![Preview image]()
+![Preview image](available-doc.jpeg)
 
 ### Live version
 
-[Check live version here]()
+[Check live version here](https://doctors-hub-frontend.netlify.app/)
+
+### Link to API 
+
+[Check out the API](https://doctors-hub-backend-api.herokuapp.com)
 
 ### Kanban board
 
-[Link]()
+[Link](https://github.com/users/muneebulrehman/projects/1)
 
-[Kanban Board preview]()
+![Initial state of Kanban board.](initial-kanban.png)
 
 ### Team information
 
